@@ -1,6 +1,6 @@
 {
   "name": "react-native-generate-components",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "",
   "main": "plopfile.js",
   "dependencies": {},
@@ -18,9 +18,6 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/korytanzan1/generate-component"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
   },
   "bugs": {
     "url": "https://github.com/korytanzan1/generate-component/issues"

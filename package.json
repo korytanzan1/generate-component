@@ -1,0 +1,18 @@
+{
+  "name": "generatecomponents",
+  "version": "1.0.0",
+  "description": "",
+  "main": "plopfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "plop": "^2.7.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node scripts/start.js",
+    "build": "node scripts/build.js",
+    "generate": "plop"
+  },
+  "author": "",
+  "license": "ISC"
+}

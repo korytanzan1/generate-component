@@ -10,7 +10,7 @@ module.exports = (plop) => {
       let actions = [
         {
           type: "add",
-          path: `src/${route}/{{properCase name}}.js`,
+          path: `../../src/${route}/{{properCase name}}.js`,
           templateFile: "templates/Component.js.hbs",
         },
       ];

@@ -1,9 +1,11 @@
 {
-  "name": "react-native-generate-components",
-  "version": "1.1.0",
+  "name": "react-native-generator-cli",
+  "version": "0.0.3",
   "description": "react-native generate components CLI",
   "main": "plopfile.js",
-  "dependencies": {},
+  "dependencies": {
+    "path": "^0.12.7"
+  },
   "devDependencies": {
     "npm": "^6.14.7",
     "plop": "^2.7.3"
@@ -12,7 +14,7 @@
     "test": "echo 'ok'",
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
-    "generate":"plop"
+    "generate": "plop"
   },
   "bin": {
     "generate": "./index.js"

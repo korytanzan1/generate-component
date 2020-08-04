@@ -15,14 +15,14 @@ yarn global add plop
 yarn add -D react-native-generator-cli
 ```
 # Usage
-### 1. Copy script to 
+### 1. Copy script 
 ```
 "scripts": {
     ...,
     "generate": "cd node_modules/react-native-generator-cli && generate && cd ../../"
 },
 ```
-### in package.json
+### to package.json
 
 ### 2.In `cmd` or `terminal` run 
 ```

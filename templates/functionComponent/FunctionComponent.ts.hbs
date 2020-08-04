@@ -1,22 +1,27 @@
 import React from "react";
-import { View, StyleProp, ViewStyle, Text } from "react-native";
+import { View, Text, StyleSheet } from "react-native";
 import { useSelector, useDispatch } from "react-redux";
 
 interface InterfaceProps {
-  children?: any;
-  style?: StyleProp<ViewStyle>;
-  props: any;
+  any:any
 }
 
-const {{pascalCase name}} = ({children, style, ...props }:InterfaceProps) => {
+const {{pascalCase name}} = (props:any) => {
     const dispatch = useDispatch();
     const store = useSelector((store: { store: any }) => store.store);
     return (
-        <View>
+        <View style={styles.container}>
             <Text>{{pascalCase name}}</Text>
-            {children}
         </View>
     )
 }
+
+const styles = StyleSheet.create({
+    container:{
+        flex:1,
+        alignItems: 'center',
+        justifyContent: 'center',
+    },
+});
 
 export default {{pascalCase name}}
